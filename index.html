@@ -6,75 +6,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap</title>
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <!-- <link href="assets/css/style.css" rel="stylesheet"> -->
+    
+    <link href="assets/css/my-style.css" rel="stylesheet">
    
 </head>
 <body>
-    
-<div class="container-fluid">
-   <div class="row">
-    <h1>OUR WEBSITE</h1>
-   </div>
-   <div class="row">
 
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">LOGO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallary</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-primary" href="#">Contact</a>
+              </li>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">LOGO</a>
-        
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="service.html">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-
-
-        
+              
+             
+            </ul>
+           
+          </div>
         </div>
-        </nav>
-    </nav>
+      </nav>
 
 
 
-   </div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner" style="max-height: 500px;">
+          <div class="carousel-item active">
+            <img src="img/1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
-   <div class="row">
-<div class="col-md-9 col-sm-6 col-xl-3" style="border: 2px solid green;">
-   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda reprehenderit blanditiis necessitatibus cupiditate? Accusantium assumenda voluptas, suscipit voluptatum quibusdam repudiandae ducimus labore cum accusamus tenetur possimus aliquid minima error maxime aspernatur iusto. Culpa inventore dignissimos voluptates repellat harum ratione, voluptatum saepe maiores illum architecto, unde maxime odit non dolore vitae ab adipisci officia odio tenetur quod quasi? Ab laborum eos veniam eligendi rem aut voluptate ullam, nam, minus modi deleniti ipsum inventore odio. Id tenetur, ullam magnam ea ipsum facere beatae eveniet impedit quibusdam nam in. Deleniti ullam hic repellat fugiat quia libero est quae nesciunt! Tenetur perferendis quas sint.
-</div>
-<div class="col-md-3 col-sm-6 col-xl-9" style="border: 2px solid green;">
-    <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Services</li>
-        <li>Products</li>
-        <li>Contact</li>
-    </ul>
-</div>
-   </div>
+
+      <div class="container">
+        <div class="row text-center my-5">
+          <h1 class="roboto-bold">Hello and Welcome to our site.</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati laboriosam quaerat in, voluptate corporis excepturi sapiente id laudantium nulla. Similique aut debitis eligendi velit voluptates?
+          </p>
+
+        </div>
+              </div>
 
 
-   <div class="row">
-    @copyright &copy; 2024; Our Website;
-   </div>
 
-</div>
-
+<script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
